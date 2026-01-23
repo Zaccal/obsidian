@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"d1bddf436191ae72","x":-40,"y":-240,"width":250,"height":60,"type":"text","text":"**Президент**"},
+		{"id":"5a55f6f7197ed8e5","x":-340,"y":-80,"width":250,"height":60,"type":"text","text":"**Законодательная власть**"},
+		{"id":"9b9631d8c76a5614","x":-40,"y":-80,"width":250,"height":60,"type":"text","text":"**Исполнительная власть** "},
+		{"id":"2c6dfdc7ad8907ab","type":"text","text":"**Судебная власть**","x":260,"y":-80,"width":250,"height":60},
+		{"id":"96fb00f24558ffdd","x":260,"y":20,"width":250,"height":60,"type":"text","text":"Верховный суд"},
+		{"id":"e1121bc974fd977a","x":260,"y":120,"width":250,"height":60,"type":"text","text":"Местные суд"},
+		{"id":"8063f149e676777b","x":-40,"y":20,"width":250,"height":60,"type":"text","text":"Правительство"},
+		{"id":"c3ec97977748d723","x":-63,"y":108,"width":296,"height":95,"type":"text","text":"Центральные **исполнительные и иные государственные** органны "},
+		{"id":"4b39a444bc427a60","x":-40,"y":245,"width":250,"height":60,"type":"text","text":"Акиматы"},
+		{"id":"989ddca846da77b1","x":-475,"y":20,"width":250,"height":60,"type":"text","text":"Парламент"},
+		{"id":"889084211f4ea005","x":-475,"y":275,"width":250,"height":60,"type":"text","text":"Маслихаты"},
+		{"id":"acda32cb105e7f26","x":-350,"y":143,"width":250,"height":60,"type":"text","text":"Мажилис"},
+		{"id":"3f0235d69ac6cbef","x":-610,"y":143,"width":250,"height":60,"type":"text","text":"Сенат"}
+	],
+	"edges":[
+		{"id":"ae1166714862d6b9","fromNode":"5a55f6f7197ed8e5","fromSide":"top","toNode":"d1bddf436191ae72","toSide":"bottom"},
+		{"id":"183732c2ea5bd557","fromNode":"9b9631d8c76a5614","fromSide":"top","toNode":"d1bddf436191ae72","toSide":"bottom"},
+		{"id":"c417a3bf978ae397","fromNode":"2c6dfdc7ad8907ab","fromSide":"top","toNode":"d1bddf436191ae72","toSide":"bottom"},
+		{"id":"24b1bb140a5c65e2","fromNode":"8063f149e676777b","fromSide":"top","toNode":"9b9631d8c76a5614","toSide":"bottom"},
+		{"id":"d2cebb6918238063","fromNode":"c3ec97977748d723","fromSide":"top","toNode":"8063f149e676777b","toSide":"bottom"},
+		{"id":"e1523172222f3b1d","fromNode":"4b39a444bc427a60","fromSide":"top","toNode":"c3ec97977748d723","toSide":"bottom"},
+		{"id":"4db8bba3f7d6360c","fromNode":"96fb00f24558ffdd","fromSide":"top","toNode":"2c6dfdc7ad8907ab","toSide":"bottom"},
+		{"id":"d6917b9a8fb1205d","fromNode":"e1121bc974fd977a","fromSide":"top","toNode":"96fb00f24558ffdd","toSide":"bottom"},
+		{"id":"0162c2c86f71d129","fromNode":"989ddca846da77b1","fromSide":"top","toNode":"5a55f6f7197ed8e5","toSide":"bottom"},
+		{"id":"27c27beee8587eac","fromNode":"3f0235d69ac6cbef","fromSide":"top","toNode":"989ddca846da77b1","toSide":"bottom"},
+		{"id":"852a1e12337c11c2","fromNode":"acda32cb105e7f26","fromSide":"top","toNode":"989ddca846da77b1","toSide":"bottom"},
+		{"id":"9e1fffaafe85191d","fromNode":"889084211f4ea005","fromSide":"top","toNode":"acda32cb105e7f26","toSide":"bottom"},
+		{"id":"72a663117c83bb9e","fromNode":"889084211f4ea005","fromSide":"top","toNode":"3f0235d69ac6cbef","toSide":"bottom"}
+	]
+}
